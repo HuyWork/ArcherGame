@@ -46,8 +46,8 @@ public class Game {
         player01 = new Player(imgPlayer01, new Vector2(100, 190), 0, keysPlayer01, sounds, 0);
         player02 = new Player(imgPlayer02, new Vector2(600, 190), 180, keysPlayer02, sounds, 1);
 
-        arrows = new Array<Arrow>();
-        players = new Array<Player>();
+        arrows = new Array<>();
+        players = new Array<>();
         players.add(player01); players.add(player02);
         this.screen = screen;
         this.screen.setHp(new int[] {player01.getHp(), player02.getHp()});
